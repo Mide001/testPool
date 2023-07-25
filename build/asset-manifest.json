@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/pools/static/css/main.a39bfe7b.css",
-    "main.js": "/pools/static/js/main.f6c9e72b.js",
+    "main.js": "/pools/static/js/main.b4cdd3b1.js",
     "static/js/2104.c0a345dd.chunk.js": "/pools/static/js/2104.c0a345dd.chunk.js",
     "static/js/700.4a7783b6.chunk.js": "/pools/static/js/700.4a7783b6.chunk.js",
     "static/js/1920.44c44465.chunk.js": "/pools/static/js/1920.44c44465.chunk.js",
@@ -71,7 +71,7 @@
     "static/media/RewardPools.png": "/pools/static/media/RewardPools.5d3e03a0a9042f53e533.png",
     "index.html": "/pools/index.html",
     "main.a39bfe7b.css.map": "/pools/static/css/main.a39bfe7b.css.map",
-    "main.f6c9e72b.js.map": "/pools/static/js/main.f6c9e72b.js.map",
+    "main.b4cdd3b1.js.map": "/pools/static/js/main.b4cdd3b1.js.map",
     "2104.c0a345dd.chunk.js.map": "/pools/static/js/2104.c0a345dd.chunk.js.map",
     "700.4a7783b6.chunk.js.map": "/pools/static/js/700.4a7783b6.chunk.js.map",
     "1920.44c44465.chunk.js.map": "/pools/static/js/1920.44c44465.chunk.js.map",
@@ -139,6 +139,6 @@
   },
   "entrypoints": [
     "static/css/main.a39bfe7b.css",
-    "static/js/main.f6c9e72b.js"
+    "static/js/main.b4cdd3b1.js"
   ]
 }

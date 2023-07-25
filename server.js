@@ -13,6 +13,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 const buildPathMain = path.join(__dirname, ".", "build-main");
 const buildPathPool = path.join(__dirname, ".", "build");
+const buildPathDeveloper = path.join(__dirname, ".", "build-createPool");
 
 
 // Parse JSON requests
@@ -24,10 +25,12 @@ app.use(bodyParser.urlencoded({ extended: true }));
 // Serve static files from the build directory
 app.use(express.static(buildPathMain));
 app.use('/pools', express.static(buildPathPool));
+app.use('/createpools', express.static(buildPathDeveloper));
 
 
 app.use('/', express.static(path.join(__dirname, 'index.html')));
 app.use('/pools/', express.static(path.join(__dirname, 'index.html')));
+app.use('/createpools', express.static(path.join(__dirname, 'index.html')));
 
 
 // Configure fallback routing
@@ -36,9 +39,7 @@ app.get("*", (req, res) => {
 });
 
 
-// Serve static files from the build directories
-app.use(express.static(buildPathMain));
-app.use('/pools', express.static(buildPathPool));
+
 
 // Configure fallback routing for main app
 app.get("*", (req, res) => {
@@ -50,8 +51,8 @@ app.get("/pools/*", (req, res) => {
   res.sendFile(path.join(buildPathPool, "index.html"));
 });
 
-app.get("/CreatePool/*", (req, res) => {
-  res.sendFile(path.join(buildPathPool, "index.html"));
+app.get("/createpools/*", (req, res) => {
+  res.sendFile(path.join(buildPathDeveloper, "index.html"));
 });
 
 app.post("/submit-form", (req, res) => {
