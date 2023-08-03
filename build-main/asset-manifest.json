@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.410ab8c5.css",
-    "main.js": "./static/js/main.3d74f530.js",
+    "main.css": "./static/css/main.fe1f424d.css",
+    "main.js": "./static/js/main.65e9db1b.js",
     "static/js/2715.63bf32f7.chunk.js": "./static/js/2715.63bf32f7.chunk.js",
     "static/js/8845.d6ba82ad.chunk.js": "./static/js/8845.d6ba82ad.chunk.js",
     "static/js/8504.19179dd9.chunk.js": "./static/js/8504.19179dd9.chunk.js",
@@ -41,7 +41,6 @@
     "static/js/7448.edd3747f.chunk.js": "./static/js/7448.edd3747f.chunk.js",
     "static/js/8167.abf206ff.chunk.js": "./static/js/8167.abf206ff.chunk.js",
     "static/js/6912.2b519e5d.chunk.js": "./static/js/6912.2b519e5d.chunk.js",
-    "static/js/9522.7a5c2522.chunk.js": "./static/js/9522.7a5c2522.chunk.js",
     "static/js/4654.21aa2326.chunk.js": "./static/js/4654.21aa2326.chunk.js",
     "static/js/8943.b9963b1f.chunk.js": "./static/js/8943.b9963b1f.chunk.js",
     "static/js/9498.23b10eb9.chunk.js": "./static/js/9498.23b10eb9.chunk.js",
@@ -54,6 +53,7 @@
     "static/js/2836.4ea94424.chunk.js": "./static/js/2836.4ea94424.chunk.js",
     "static/js/7295.0211dbb5.chunk.js": "./static/js/7295.0211dbb5.chunk.js",
     "static/media/background-ake.png": "./static/media/background-ake.7b4535d24ffc531bb7ce.png",
+    "static/media/whatever.PNG": "./static/media/whatever.61d7063ea5069c67c615.PNG",
     "static/media/RewardPoolsWP-Pages-1.PDF": "./static/media/RewardPoolsWP-Pages-1.b1d5cf661593d7bc3130.PDF",
     "static/media/help-reward.png": "./static/media/help-reward.53c56022b17fea877965.png",
     "static/media/RewardPools.png": "./static/media/RewardPools.5d3e03a0a9042f53e533.png",
@@ -66,7 +66,7 @@
     "index.html": "./index.html"
   },
   "entrypoints": [
-    "static/css/main.410ab8c5.css",
-    "static/js/main.3d74f530.js"
+    "static/css/main.fe1f424d.css",
+    "static/js/main.65e9db1b.js"
   ]
 }
